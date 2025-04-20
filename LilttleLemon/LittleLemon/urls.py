@@ -28,6 +28,8 @@ router.register(r'users', UserViewSet )
 urlpatterns = [
     path('restaurant/', include(router.urls)),
     path('admin/', admin.site.urls),  
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
 

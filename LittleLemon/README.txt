@@ -6,6 +6,8 @@ login details:
 username: djangouser
 password: lemon123
 
+NB: Register as a user using before accessing the endpoints using: http://127.0.0.1:8000/auth/users/
+
 MySQL database: littlelemon
 username: root
 password: lemon@123
